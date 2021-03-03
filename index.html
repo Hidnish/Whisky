@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="css/style.css" type="text/css">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -49,7 +49,7 @@
         </div>
         <!--</div>-->
     </nav>
-    <article class="container mt-3">
+    <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -58,16 +58,20 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="container-fluid callout-container">
         <!-- Callout -->
+        <div class="opaque-overlay">blabla</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign
                             Up!</button></p>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
                             responsibly.</small></p>
@@ -75,8 +79,9 @@
             </div>
         </div>
         <!-- /.callout -->
-        <hr>
-        <!-- Quotes -->
+    </div>
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -117,8 +122,9 @@
             </div>
         </section>
         <!-- /.quotes -->
-        <hr>
-        <!-- Features -->
+    </div>
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -158,8 +164,8 @@
             </div>
         </section>
         <!-- /.features -->
-    </article>
-        <!-- Modal -->
+    </div>
+    <!-- Modal -->
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
             <div class="modal-content">
