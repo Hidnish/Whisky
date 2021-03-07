@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {}
+/* .container-wrapper {} */
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -20,6 +20,7 @@ body {
     padding: 5px 15px;
     background-color: #ffd44b;
     border-color: #ffd44b;
+    text-align: center;
 }
 
 .callout-container {
@@ -47,9 +48,9 @@ body {
     background-color: rgba(0,0,0,0.5);
 } 
 
-.quotes-container {}
+/* .quotes-container {}
 
-.features-container {}
+.features-container {} */
 
 /* Page header */
 
@@ -203,4 +204,9 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.features .btn:hover {
+    background-color: rgb(248, 189, 155);
+    color: #f05f40
 }
